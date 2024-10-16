@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const MulhereSchema = new mongoose.Schema({
+const MulherSchema = new mongoose.Schema({
     nome: {
         type: String,
         required: true
@@ -10,12 +10,12 @@ const MulhereSchema = new mongoose.Schema({
         required: true,
     },
     citacao: {
-        type: String,
+        type:String,
         required: true,
     },
     minibio: {
-        trype: String,
-        required: true,
+        type: String,
+        required: true
     }
 })
 
